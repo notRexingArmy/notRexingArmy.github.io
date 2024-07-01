@@ -10,7 +10,7 @@
 		"progresses":[
 			{
 				"name":"Li Mao",
-				"percent":90,
+				"percent":9,
 				"link":"",
 				"hertz":"144"
 			}
@@ -26,6 +26,22 @@
 				"name":"Li Mao",
 				"link":"https://www.youtube.com/watch?v=H0Rk7fTq2Gk",
 				"hertz":"144"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Protoflicker":{
+		"name":"Protoflicker",
+		"ytcode":"bwn9pLDNzGs",
+		"minimumPercent": 67,
+		"publisher":"ewop",
+		"list":[
+			{
+				"name":"Li Mao",
+				"link":"https://youtu.be/yaEMm1D13qk",
+				"hertz":"2.2"
 			}
 		],
 		"progresses":[
@@ -218,6 +234,22 @@
 				"name":"Li Mao",
 				"link":"https://youtu.be/0WCK5Qb-pwI",
 				"hertz":"144"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"NaH":{
+		"name":"NaH",
+		"ytcode":"8_bF9jsdkPI&t=0s",
+		"minimumPercent": 67,
+		"publisher":"zZeusGD",
+		"list":[
+			{
+				"name":"Li Mao",
+				"link":"https://youtu.be/8Qk0Kz5Q5eU",
+				"hertz":"2.2"
 			}
 		],
 		"progresses":[
@@ -483,7 +515,7 @@
 	"Boops N Snoots":{
 		"name":"Boops N Snoots",
 		"ytcode":"9FU6bsMs0mM",
-		"minimumPercent": 70,
+		"minimumPercent": 100,
 		"publisher":"EnenzoGD",
 		"list":[
 			{
@@ -499,7 +531,7 @@
 	"Poeyeng Aeng":{
 		"name":"Poeyeng Aeng",
 		"ytcode":"rRDBhX3Xous",
-		"minimumPercent": 81,
+		"minimumPercent": 100,
 		"publisher":"akun akun",
 		"list":[
 			{
@@ -547,7 +579,7 @@
 	"Thermodynamix":{
 		"name":"Thermodynamix",
 		"ytcode":"_tavE07Ke64",
-		"minimumPercent": 70,
+		"minimumPercent": 100,
 		"publisher":"CastriX",
 		"list":[
 			{
@@ -563,7 +595,7 @@
 	"BEATDEMON":{
 		"name":"BEATDEMON",
 		"ytcode":"vp8BjfeERvE",
-		"minimumPercent": 75,
+		"minimumPercent": 100,
 		"publisher":"YoReid",
 		"list":[
 			{
@@ -576,6 +608,22 @@
 				"link":"",
 				"hertz":"M/120"
 			}
+		]
+	},
+		"progresses":[
+			"none"
+		],
+	"Glacier15":{
+		"name":"Glacier15",
+		"ytcode":"37QdVq_O-lE",
+		"minimumPercent": 100,
+		"publisher":"Dolphe",
+		"list":[
+			{
+				"name":"Li Mao",
+				"link":"https://youtu.be/O7YUZQuWq6A",
+				"hertz":"2.2"
+			}
 		],
 		"progresses":[
 			"none"
@@ -584,7 +632,7 @@
 	"Ditched Machine":{
 		"name":"Ditched Machine",
 		"ytcode":"8xr2CLLKFVs",
-		"minimumPercent": 71,
+		"minimumPercent": 100,
 		"publisher":"Jeyzor",
 		"list":[
 			{
@@ -597,4 +645,4 @@
 			"none"
 		]
 	}
-}
+}	

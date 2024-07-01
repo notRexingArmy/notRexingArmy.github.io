@@ -2,6 +2,7 @@
 	"Li Mao":{
 		"levels":[
 			"Loochiverse",
+			"Protoflicker",
 			"Prismatic Haze",
 			"doradura",
 			"PITFALL",
@@ -13,6 +14,7 @@
 			"HyperSonic",
 			"Acu",
 			"Thanatophobia",
+			"NaH",
 			"My Song",
 			"Elysian Aegis",
 			"Leyak",
@@ -30,12 +32,13 @@
 			"Sleepless",
 			"Windy Landscape",
 			"Thermodynamix",
+			"Glacier15",
 			"BEATDEMON"
 		],
 		"progs":[
 			{
 				"name":"Rust",
-				"percent":90
+				"percent":98
 			}
 		]
 	},
