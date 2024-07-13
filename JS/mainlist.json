@@ -5,15 +5,14 @@
 		"minimumPercent": 58,
 		"publisher":"Neigefeu",
 		"list":[
-			"none"
+			{
+			"name":"Li Mao",
+			"link":"https://www.youtube.com/watch?v=FUmfDa8x5Kw",
+			"hertz":"2.2"
+			}
 		],
 		"progresses":[
-			{
-				"name":"Li Mao",
-				"percent":98,
-				"link":"",
-				"hertz":"2.2"
-			}
+			"none"
 		]
 	},
 	"Loochiverse":{
@@ -26,6 +25,22 @@
 				"name":"Li Mao",
 				"link":"https://www.youtube.com/watch?v=H0Rk7fTq2Gk",
 				"hertz":"144"
+			}
+		],
+		"progresses":[
+			"none"
+		]
+	},
+	"Blade of Justice":{
+		"name":"Blade of Justice",
+		"ytcode":"6018CbEjA-4",
+		"minimumPercent": 63,
+		"publisher":"Manix648",
+		"list":[
+			{
+				"name":"Li Mao",
+				"link":"https://www.youtube.com/watch?v=BCommvI1xUM",
+				"hertz":"2.2"
 			}
 		],
 		"progresses":[
