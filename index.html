@@ -1,50 +1,70 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta property="og:title" content="Geometry Dash Personal Demon List">
-    <meta property="og:description" content="A demon list dedicated to ranking our Personal Demons.">
-    <meta name="author" content="ryan9328">
-    <meta name="keywords" content="ryan9328,official,geometry,dash,hardest,extreme,insane,demon,list,demonlist,hardest,levels,gmd,gd,typier,game,top,level,levels,player,players,geometry dash, LRR, 60hz, 60HZ, 75hz, 75HZ, geometry dash 60hz demonlist, GD 60hz list">
-    <meta name="description" content="A demon list dedicated to ranking our Personal Demons.">
-    <title>GD Personal Demon List</title>
-    <link href="/CSS/levelcards.css?v=2020-10-29" rel="stylesheet" type="text/css" />
-    <link href="/CSS/nav.css?v=2020-10-05" rel="stylesheet" type="text/css" />
-    <link href="/CSS/list.css?v=2020-10-29" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter|Bitter:light,bold">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-  </head>
-  <body style="background-color:white;">
-    <ul class = "nav">
-      <li class = "redir"><a href="changelog.html">Changelog</a></li>
-      <li class = "redir"><a href="leaderboard.html">Leaderboard</a></li>
-      <li class = "redir"><a class="active-nav-item" href="index.html">Main List</a></li>
-      <li class = "redir"><a href="homepage.html">About</a></li>
-      <li class = "titlebox">GD Personal Demon List</li>
-      <li>
-        <button onclick="dropMenu()" class="dropbtn">Go To...</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="homepage.html">About</a>
-          <a class="active-nav-item" href="index.html">Main List</a>
-          <a href="leaderboard.html">Leaderboard</a>
-          <a href="changelog.html">Changelog</a>
-        </div>
-      </li>
-    </ul>
-    <!-- <p><a href = "leaderboard.html">Leaderboard page</a></p>
-    <p><a href = "Extendedlist.html">Extended page</a></p> -->
-    <div id="levels-container"> 
-      <h1 style = "text-align:center">Top 75 Demons List</h1>
-      <p style = "text-align:center">These Levels stand at the top of the List, all of these have victors or have some form of progress and all award Points for completions and partial progress!<br> Want to submit a record? Submit it <a href = "https://docs.google.com/forms/d/e/1FAIpQLSedX9XdOi-KgSuQKMYRhLjhnS3e163AiZFXgptWZ_rNTLV7oA/viewform" target = "_blank">here!</a></p></p>
-    </div>
-    <script src="/JS/dropdown.js"></script>
-    <script src="/JS/mainlist.js?v=2020-10-29"></script>
-    <script src="/JS/collapsible.js?v=2020-10-05"></script>
-    <script src="/JS/videoresize.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=1024" />
+        <title>All Rated Extreme Demons List</title>
+        <link rel="icon" href="/AREDL.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="/css/typography.css" />
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+
+        <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
+        <link rel="stylesheet" type="text/css" href="/css/pages/leaderboard.css"/>
+        <link rel="stylesheet" type="text/css" href="/css/pages/roulette.css" />
+        <link rel="stylesheet" type="text/css" href="/css/pages/listpacks.css" />
+
+        <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
+        <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
+        <link rel="stylesheet" type="text/css" href="/css/components/tags.css" />
+        <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
+        <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
+        <script type="module" src="/js/main.js"></script>
+    </head>
+    <body id="app">
+        <header :class="{ dark: store.dark }">
+            <div class="logo">
+                <h2>AREDL</h2>
+                <p>v1.7.2</p>
+            </div>
+            <nav class="nav">
+                <router-link class="nav__tab" to="/">
+                    <span class="type-label-lg">List</span>
+                </router-link>
+                <router-link class="nav__tab" to="/leaderboard">
+                    <span class="type-label-lg">Leaderboard</span>
+                </router-link>
+                <router-link class="nav__tab" to="/roulette">
+                    <span class="type-label-lg">Roulette</span>
+                </router-link>
+                <router-link class="nav__tab" to="/list-packs">
+                    <span class="type-label-lg">Packs</span>
+                </router-link>
+                <div class="nav__actions">
+                    <button
+                        class="nav__icon"
+                        @click.prevent="store.toggleDark()"
+                    >
+                        <img
+                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
+                            alt=""
+                        />
+                    </button>
+                    <a class="nav__icon" href="https://discord.gg/aredl">
+                        <img src="/assets/discord.svg" alt="Discord Logo" />
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <router-view :class="{ dark: store.dark }"></router-view>
+        <!-- Cloudflare Web Analytics -->
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "441c380301ce486db5184315eb330170"}'></script>
+        <!-- End Cloudflare Web Analytics -->
+    </body>
 </html>

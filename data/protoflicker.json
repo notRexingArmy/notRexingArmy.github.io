@@ -1,0 +1,29 @@
+{
+	"id": 83340498,
+	"name": "PROTOFLICKER",
+	"author": "ewop",
+	"creators": [
+		"ZeroSR",
+		"xSmokes",
+		"boop",
+		"jenkins",
+		"varse",
+		"lucas",
+		"quid",
+		"deadlox",
+		"para",
+		"scrumpy",
+		"cdpre"
+	],
+	"verifier": "swiborg",
+	"verification": "https://www.youtube.com/watch?v=bwn9pLDNzGs",
+	"percentToQualify": 100,
+	"records": [
+		{
+			"user": "Li Mao",
+			"link": "https://www.youtube.com/watch?v=yaEMm1D13qk&t=14s",
+			"percent": 100,
+			"hz": 2.2
+		}
+	]
+}
