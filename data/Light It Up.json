@@ -1,0 +1,30 @@
+{
+	"id": 65280584,
+	"name": "Light It Up",
+	"author": "ARwooly",
+	"creators": [
+		"SrKarlen",
+		"Kyoze",
+		"Kiwi", 
+		"Zgod", 
+		"Inferno", 
+		"Gianv", 
+		"Sting", 
+		"Yuko", 
+		"Kylerocket", 
+		"Hattoruu", 
+		"Tragikly", 
+		"Tsunami"
+	],
+	"verifier": "Blathers",
+	"verification": "https://www.youtube.com/watch?v=oVdIFlFw_ko",
+	"percentToQualify": 100,
+	"records": [
+		{
+			"user": "Li Mao",
+			"link": "https://youtu.be/j1Fq8bhX16w",
+			"percent": 100,
+			"hz": 144
+		},
+	]
+}

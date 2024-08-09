@@ -1,0 +1,24 @@
+{
+	"id": 95965936,
+	"name": "Pitfall",
+	"author": "Hamotho",
+	"creators": [
+		"Impostor69",
+		"Cocoa",
+		"Hamoto",
+		"Robanana",
+		"Stellarum"
+	],
+	"verifier": "Xplode",
+	"verification": "https://www.youtube.com/watch?v=DJdPZznV_pA",
+	"percentToQualify": 100,
+	"password": "??????",
+	"records": [
+		{
+			"user": "Li Mao",
+			"link": "https://www.youtube.com/watch?v=C84tFJB2BYk&t=7s",
+			"percent": 100,
+			"hz": 144
+		}
+	]
+}
