@@ -1,0 +1,19 @@
+{
+    "id": "89170514",
+    "name": "RUST",
+    "author": "neigefeu",
+    "verifier": "Keir",
+    "desc": "This is my hardest level, inspired by KrmaL and Crohn44. Good luck.",
+    "percentToQualify": "100",
+    "hacked": false,
+    "unrated": false,
+    "verificationVid": "https://www.youtube.com/watch?v=mEXGlrNMyR4",
+    "password": "Free to Copy",
+    "records": [
+        {
+            "percent": "100",
+            "link": "https://www.youtube.com/watch?v=FUmfDa8x5Kw",
+            "user": "Li Mao"
+        } 
+    ]
+}
