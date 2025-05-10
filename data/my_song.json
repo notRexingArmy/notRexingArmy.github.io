@@ -1,0 +1,18 @@
+{
+    "id": "89170514",
+    "name": "My Song",
+    "author": "LGenoxide",
+    "verifier": "LGenoxide",
+    "desc": "(06/19/2024) Fixed a Spider Slope Bug around 70%> // also Reverified by me",
+    "percentToQualify": "100",
+    "hacked": false,
+    "unrated": false,
+    "verificationVid": "",
+    "records": [
+        {
+            "percent": "100",
+            "link": "https://www.youtube.com/watch?v=jXB_2x5Z89Q",
+            "user": "Li Mao"
+        } 
+    ]
+}

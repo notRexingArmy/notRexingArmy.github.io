@@ -1,18 +1,18 @@
 {
-    "id": "71912451",
-    "name": "RUST",
-    "author": "neigefeu",
-    "verifier": "Keir",
+    "id": "81373023",
+    "name": "Loochiverse",
+    "author": "Nerhy",
+    "verifier": "dtdom",
     "desc": "This is my hardest level, inspired by KrmaL and Crohn44. Good luck.",
-    "percentToQualify": "70",
+    "percentToQualify": "100",
     "hacked": false,
     "unrated": false,
-    "verificationVid": "https://www.youtube.com/watch?v=mEXGlrNMyR4",
+    "verificationVid": "https://www.youtube.com/watch?v=WvENMWaO98w",
     "password": "Free to Copy",
     "records": [
         {
             "percent": "100",
-            "link": "https://www.youtube.com/watch?v=FUmfDa8x5Kw",
+            "link": "https://www.youtube.com/watch?v=H0Rk7fTq2Gk",
             "user": "Li Mao"
         } 
     ]
