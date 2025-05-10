@@ -1,0 +1,15 @@
+{
+    "id": "1",
+    "name": "Level Name",
+    "author": "Creator Name",
+    "verifier": "Verifier Name",
+    "desc": "Level Description",
+    "percentToQualify": "100",
+    "hacked": false,
+    "unrated": false/true,
+    "verificationVid": "Verification Video Link",
+    "password": "Level Password/Free to Copy/Not Copyable",
+    "records": [
+      
+    ]
+}
