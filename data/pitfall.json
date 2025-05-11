@@ -1,13 +1,13 @@
 {
-    "id": "",
+    "id": "95965936",
     "name": "PITFALL",
     "author": "Xplode",
     "verifier": "Xplode",
-    "desc": "",
+    "desc": "You are lost. You do not belong here.",
     "percentToQualify": "100",
     "hacked": false,
     "unrated": true,
-    "verificationVid": "",
+    "verificationVid": "https://www.youtube.com/watch?v=DJdPZznV_pA",
     "records": [
         {
             "percent": "100",
